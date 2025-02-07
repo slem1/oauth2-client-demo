@@ -27,4 +27,13 @@ public class AccessTokenResponse {
         this.scope = scope;
         this.tokenType = tokenType;
     }
+
+    @Override
+    public String toString() {
+        return "AccessTokenResponse{" +
+               "accessToken='" + accessToken + '\'' +
+               ", scope='" + scope + '\'' +
+               ", tokenType='" + tokenType + '\'' +
+               '}';
+    }
 }
